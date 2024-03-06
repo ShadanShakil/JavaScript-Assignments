@@ -59,7 +59,7 @@ else {
 
 // Question 4
 
-const char = prompt("Enter a character:").trim().toLowerCase();
+const char = prompt("Enter a character:")
 
 if (char.length === 1) {
     if (char === 'a' || char === 'e' || char === 'i' || char === 'o' || char === 'u') {
