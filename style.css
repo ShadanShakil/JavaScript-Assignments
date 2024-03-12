@@ -26,7 +26,20 @@ body {
         /* border: 2px solid black; */
 
 }
-
+#codelink{
+  background-color: black;
+  color:  white;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#codelink:hover{
+  margin-top: 20px;
+  padding: 10px 20px;
+  transform: scale(1.1);
+  transition: all 0.3s ease-in-out;
+}
 footer{
     border: 2px solid black;
     width: 50vw;
