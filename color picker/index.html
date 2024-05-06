@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Picker</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <input type="number" id="red" placeholder="Red" min="0" max="255">
+        <input type="number" id="green" placeholder="Green" min="0" max="255">
+        <input type="number" id="blue" placeholder="Blue" min="0" max="255">
+        <button id="updateBtn" onclick="updateColor()">Update Color</button>
+        <div id="colorBox"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
