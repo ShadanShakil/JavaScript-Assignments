@@ -1,0 +1,19 @@
+#main-cont{
+    border: 2px solid black;
+    height: 300px;
+    width: 500px;
+}
+img{
+    height: 100%;
+    width: 100%;
+}
+#cont{
+    display: flex;
+    gap: 10px;
+    margin: 10px 10px;
+}
+.sub-cont{
+    /* border: 2px solid black; */
+    height: 80px;
+    width: 80px;
+}
