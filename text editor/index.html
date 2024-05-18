@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="shortcut icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMgAAADICAMAAACahl6sAAAAaVBMVEX///8AAADX19efn5+jo6Pb29tDQ0N7e3t/f38kJCTz8/MhISH8/PwEBARGRkZJSUm/v7/Gxsbh4eGMjIxOTk4wMDC1tbWTk5Ourq4XFxdjY2OFhYVZWVkNDQ1oaGhubm7s7OwsLCw7OzuaqMVsAAACHUlEQVR4nO3c626qQBhGYdBSKoeqFarWukXv/yKLupvsxGE4FGbe3azn95fISgYHTZggAAAAAAAAAAAAAAAAAADoSmYTStxlfOThhPIPVymvU2ZcLd10rKbuCMOVk5DD9CEHJyHx9CEvhBDyi0IWzyaLpms8dxn3EPI5a5hap6aMxbphfPbpN+SpeSw6PnYc35rn5z5DNra5P48hJ9v8wV9Imtnm5o8hc9t8lnoL2VrnDCGWlVjb+Ao52p9Se4dUR08h1hU/ICQ4eQqxfAVd9Q+J/IQULXP9Q4LCS0jT3vZtQMjKR0jZNjcgJChdhvzduHZtc0NCnu5z1o12NO+3z3punRsSkl1uc25+6mbXR9Wyap0bEhJU53rsbH1iGE90SeMO/9gMCgmSU3qJfn6NYxoWIogQNYSoIUQNIWoIUUOIGkLUEKKGEDWEqCFEDSFqCFFDiBpC1BCihhA1hKghRA0haghRQ4gaQtQQooYQNYSoIUQNIWoIUUOIGkLUEKKGEDWEqPk1IYZjR9y8ujqyzHCiiKs3JUe1eexoO1xBkuEOqeX/2V2S7JbGjlqxc3c02w+9bV+tR7vly23LIQsCsnV8tkV8K+O18n2fxPsuFXf7Lm9g+xEZzz1qthBdYVmnRfWvUnN57fp2hOG772s2Mu8cVpq7StXjTr/bV76v2Swqeh0NmheiN3stiXqQ/fYFAAAAAAAAAAAAAABw7Aufbhtzgr2BxQAAAABJRU5ErkJggg==" type="image/x-icon">
+    <title>Text Editor</title>
+</head>
+<body>
+    <div class="heading">
+        <h1>Text Editor</h1>
+    </div>
+    <div class="container">
+        <div class="buttons">
+            <button onclick="bold()"><i class="fa-solid fa-bold"></i></button>
+            <button onclick="italic()"><i class="fa-solid fa-italic"></i></button>
+            <button onclick="underline()"><i class="fa-solid fa-underline"></i></button>
+            <button onclick="right()"><i class="fa-solid fa-align-right"></i></button>
+            <button onclick="left()"><i class="fa-solid fa-align-left"></i></button>
+            <button onclick="center()"><i class="fa-solid fa-align-center"></i></button>
+        </div>
+        <div class="input">
+            <textarea name="" id="head" cols="50" rows="1" placeholder="Heading"></textarea>
+            <textarea name="" id="text" cols="100" rows="20" placeholder="Text"></textarea>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
