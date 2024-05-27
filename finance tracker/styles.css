@@ -1,0 +1,108 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f7f7f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    width: 350px;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.balance {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.income-expense {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.income, .expense {
+    flex: 1;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.income {
+    background-color: #e0f7fa;
+    color: #00796b;
+}
+
+.expense {
+    background-color: #ffebee;
+    color: #d32f2f;
+}
+
+.transaction-list {
+    margin: 20px 0;
+}
+
+.list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.list li {
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    padding: 10px;
+    border-left: 5px solid;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.list li.plus {
+    border-color: #00796b;
+}
+
+.list li.minus {
+    border-color: #d32f2f;
+}
+
+.add-transaction {
+    margin: 20px 0;
+}
+
+.form-control {
+    margin-bottom: 10px;
+}
+
+.form-control label {
+    display: block;
+}
+
+.form-control input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #00796b;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
