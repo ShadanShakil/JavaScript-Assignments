@@ -1,0 +1,38 @@
+body{
+background-image: url("https://img.freepik.com/free-vector/gradient-galaxy-background_52683-140969.jpg?w=1480&t=st=1720025445~exp=1720026045~hmac=bd350fb2a517a92d44a33d70615a757c5ce59a672a0e5e77d8073ac8a58dc954");
+background-repeat: no-repeat;
+background-size: cover;
+}
+h1{
+    color: rgb(197, 194, 194);
+    font-size: 3em;
+}
+
+.container{
+    /* border: 2px solid black; */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 700px;
+    margin: 10px auto;
+    row-gap: 10px;
+    place-items: center;
+    background-color: beige;
+    border-radius: 25px;
+    background: rgba( 255, 255, 255, 0.25 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 12.5px );
+-webkit-backdrop-filter: blur( 12.5px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+.box{
+    height: 150px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: white;
+    background-color: black;
+    border-radius: 25px;
+}
