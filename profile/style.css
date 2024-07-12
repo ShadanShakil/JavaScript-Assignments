@@ -1,0 +1,139 @@
+body{
+    background-color: rgb(239, 239, 239);
+}
+#signup {
+    width: 300px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+}
+
+/* Styling the heading */
+#signup h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}
+
+/* General styles for the form */
+#signup form {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+/* Styling the input fields */
+#signup input[type="text"],
+#signup input[type="email"],
+#signup input[type="password"],
+#signup input[type="date"] {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Changing input field focus color */
+#signup input[type="text"]:focus,
+#signup input[type="email"]:focus,
+#signup input[type="password"]:focus,
+#signup input[type="date"]:focus {
+    border-color: #007BFF;
+    outline: none;
+}
+
+/* Styling the signup button */
+#signup #signup-btn {
+    padding: 10px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+/* Changing button color on hover */
+#signup #signup-btn:hover {
+    background-color: #0056b3;
+}
+
+
+
+
+/* General styles for the signin container */
+#signin {
+    width: 300px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+}
+
+/* Styling the heading */
+#signin h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}
+
+/* General styles for the form */
+#signin form {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+/* Styling the input fields */
+#signin input[type="text"],
+#signin input[type="password"] {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Changing input field focus color */
+#signin input[type="text"]:focus,
+#signin input[type="password"]:focus {
+    border-color: #007BFF;
+    outline: none;
+}
+
+/* Styling the signin button */
+#signin button {
+    padding: 10px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+/* Changing button color on hover */
+#signin button:hover {
+    background-color: #0056b3;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#margin{
+    border: 1px solid;
+    width: 1px;
+    height: 85vh;
+    background-color: black;
+}

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="authentication">
+      <div class="container">
+        <div id="signup">
+          <h1>CREATE AN ACCOUNT</h1>
+          <form action="">
+            <input
+              type="text"
+              id="firstname"
+              placeholder="First name"
+              required
+            />
+            <input type="text" id="lastname" placeholder="lastname" required />
+            <input type="email" id="email" placeholder="Email" required />
+            <input
+              type="password"
+              id="password"
+              placeholder="Password"
+              required
+            />
+            <input
+              type="text"
+              id="gender"
+              placeholder="Gender"
+              required
+            />
+            <input type="text" id="dob" placeholder="Date Of Birth" required />
+            <input
+              type="text"
+              id="qualification"
+              placeholder="Qualification"
+              required
+            />
+            <button id="signup-btn">SignUp</button>
+          </form>
+        </div>
+        <div id="margin"></div>
+        <div id="signin">
+          <h1>SIGN IN TO YOUR ACCOUNT</h1>
+          <form action="">
+            <input type="text" id="signin-email" placeholder="Email" required />
+            <input
+              type="password"
+              id="signin-password"
+              placeholder="Password"
+              required
+            />
+            <button id="signin-btn">SignIn</button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <div id="user-container">
+        <button id="logout">LOGOUT! </button>
+    </div>
+    <script src="app.js" type="module"></script>
+  </body>
+</html>
