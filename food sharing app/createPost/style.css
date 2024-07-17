@@ -1,0 +1,152 @@
+ody{
+    background-color: #e8e8e8;
+    color: #333; /* Set to a contrasting color for readability */
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+nav {
+    background-color: #171717;
+    color: white;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.logo {
+    font-size: 2.5rem;
+    font-family: "Black Ops One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    background: -webkit-linear-gradient(#eee, #333);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    /* border: 2px solid white; */
+}
+
+/* .main {
+    flex-grow: 1;
+    border: 2px solid white;
+
+} */
+
+.main > ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.main > ul > a {
+    text-decoration: none;
+    color: white;
+}
+
+.main > ul > a > li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50%;
+    padding: 0 15px;
+    font-size: 1.3rem;
+}
+
+.main > ul > a > li:hover {
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    color: rgb(201, 201, 201);
+}
+
+.buttons {
+    display: flex;
+    gap: 25px;
+    /* border: 2px solid white; */
+
+}
+
+.Btn {
+    width: 100px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(15, 15, 15);
+    border: none;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transition-duration: 0.3s;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.103);
+}
+
+.Btn::before {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    content: "";
+    background-color: white;
+    border-radius: 50%;
+    left: -100%;
+    top: 0;
+    transition-duration: 0.3s;
+    mix-blend-mode: difference;
+}
+
+.Btn:hover::before {
+    transition-duration: 0.3s;
+    transform: translate(100%, -50%);
+    border-radius: 0;
+}
+
+.Btn:active {
+    transform: translate(5px, 5px);
+    transition-duration: 0.3s;
+}
+.createpost{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image{
+    /* border: 2px solid black; */
+    width: 50%;
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content{
+    /* border: 2px solid black; */
+    width: 50%;
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+h1{
+    font-size: 5rem;
+    font-family: "Black Ops One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    color: #171717;
+}
+input{
+    gap: 25px;
+    margin: 15px 0px;
+    border-radius: 25px;
+    padding: 10px;
+    border: 1px solid black;
+
+}
+label{
+    font-size: 1.5rem;
+}

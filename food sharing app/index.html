@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="https://firebasestorage.googleapis.com/v0/b/food-sharing-app-31588.appspot.com/o/42dd903d-3cae-4f47-975d-619495c79023.png?alt=media&token=616b9e3f-6615-40f7-a466-c72b8dd07f2d" type="image/x-icon">
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Permanent+Marker&display=swap"
+      rel="stylesheet"
+    />
+    <title>FoodSight</title>
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav>
+      <div class="logo">FoodSight</div>
+      <div class="main">
+        <ul>
+          <a href="/"><li>Home</li></a>
+          <a href="about.html"><li>About</li></a>
+          <a href="contactus.html"><li>Contact Us</li></a>
+        </ul>
+      </div>
+      <div class="buttons">
+        <button id="login-btn" class="Btn">Login</button>
+        <button id="create-btn" class="Btn">Create Post</button>
+        <button id="logout-btn" class="Btn">Logout</button>
+      </div>
+    </nav>
+
+    <!-- nav end here -->
+<div class="Heading">
+  <h1 style="font-size: 3rem;">Posts:</h1>
+</div>
+    <div id="cards_container" style="display: flex; flex-wrap: wrap;gap: 10px;">
+    </div>
+
+    <script src="app.js" type="module"></script>
+  </body>
+</html>
