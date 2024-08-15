@@ -1,0 +1,30 @@
+Temperature Converter
+
+Objective: Create a web-based temperature converter that allows users to convert temperatures between Celsius, Fahrenheit, and Kelvin.
+
+Time: 30 Minutes
+
+Minimum Passing Requirements:
+
+Input Field:
+A text input field where users can enter a temperature value.
+The input should accept numbers.
+Dropdown Menu:
+Two dropdown menus:
+The first dropdown allows the user to select the temperature unit of the input (Celsius, Fahrenheit, or Kelvin).
+The second dropdown allows the user to select the target unit for conversion (Celsius, Fahrenheit, or Kelvin).
+Convert Button:
+A button labeled "Convert" that triggers the conversion process when clicked.
+Output Display:
+A section to display the converted temperature value along with the selected target unit.
+Formulae for Conversions: 
+	Celsius to Fahrenheit: (°C × 9/5) + 32 = °F
+Celsius to Kelvin: °C + 273.15 = K
+Fahrenheit to Celsius: (°F − 32) × 5/9 = °C
+Fahrenheit to Kelvin: ((°F − 32) × 5/9) + 273.15 = K
+Kelvin to Celsius: K − 273.15 = °C
+Kelvin to Fahrenheit: ((K − 273.15) × 9/5) + 32 = °F
+Bonus Tasks: 
+Try to make it a real-time conversion.
+Make it responsive UI
+Keep temperature history maintained until refresh.
